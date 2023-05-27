@@ -1,0 +1,44 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Zilla Slab", serif;
+  margin-top: 100px;
+  background-image: linear-gradient(#fab3b3, #fff6e4);
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 7rem;
+  text-align: center;
+  color: #f87373;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.btn-item {
+  margin-left: 15px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #f3eded;
+  border-color: #f87373;
+  
+}
+
+.photo {
+  width: 30%;
+  height: 400px;
+  object-fit: cover;
+  border: 0.25rem solid rgb(241, 14, 14);
+  border-radius: 10px;
+  margin: 10px 0;
+}
